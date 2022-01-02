@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="teachexam" prefHeight="450.0" prefWidth="766.0" style="-fx-background-color: #2D4263;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.teachexam">
+   <children>
+      <Button layoutX="609.0" layoutY="399.0" mnemonicParsing="false" onAction="#nextaction" prefHeight="31.0" prefWidth="92.0" styleClass="layout" stylesheets="@../css/style.css" text="next" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="questionLabel" layoutX="30.0" layoutY="21.0" prefHeight="83.0" prefWidth="706.0" promptText="question" style="-fx-text-fill: white;" styleClass="layout">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="aChoice" layoutX="61.0" layoutY="150.0" promptText="ans1" style="-fx-text-fill: white;" styleClass="layout">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="bChoice" layoutX="61.0" layoutY="203.0" promptText="ans2" style="-fx-text-fill: white;" styleClass="layout">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cChoice" layoutX="61.0" layoutY="256.0" promptText="ans3" style="-fx-text-fill: white;" styleClass="layout">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="dChoice" layoutX="61.0" layoutY="302.0" promptText="ans4" style="-fx-text-fill: white;" styleClass="layout">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="correctAnswer" layoutX="61.0" layoutY="361.0" promptText="correct ans" style="-fx-text-fill: white;" styleClass="layout">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Button layoutX="436.0" layoutY="399.0" mnemonicParsing="false" onAction="#mainaction" prefHeight="37.0" prefWidth="131.0" styleClass="layout" stylesheets="@../css/style.css" text="back to main" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
